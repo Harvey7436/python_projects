@@ -24,6 +24,10 @@ def get_password(MAX_LENGTH, MIN_LENGTH):
         password = input("Password is too short, please try again: ")
         while len(password) > MAX_LENGTH:
             password = input("Password is too long, please try again: ")
+    print_password(password)
+
+
+def print_password(password):
     print('*' * len(password))
 
 
