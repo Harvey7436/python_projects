@@ -34,7 +34,4 @@ def get_data():
 
     return subject_list
     input_file.close()
-
-
-
 main()
